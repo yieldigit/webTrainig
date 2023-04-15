@@ -1,5 +1,7 @@
 <?php
 
+use Tymon\JWTAuth\Providers\LaravelServiceProvider;
+
 /*
  * This file is part of jwt-auth.
  *
