@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('roles', function (Blueprint $table) {
             $table->id();
-            $table->string('nom', 255);
-            $table->integer('niveau')->default(1); // définir la valeur par défaut à 1
+            $table->string('name', 255);
+            $table->integer('level')->default(1); // définir la valeur par défaut à 1
             $table->timestamps();
         });
     }
